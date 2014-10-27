@@ -1,0 +1,460 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%
+}
+
+/* ******************************* Fonts ************************************************** */
+@font-face {
+	font-family:"futura";
+	url('../assets/futura.ttf');/* IE9 */
+	src: url('..assets/futura.ttf');
+}
+
+@font-face {
+	font-family:"kalinga";
+	url('../assets/kalinga.ttf');/* IE9 */
+	src:url ('../assets/kalinga.ttf');
+}
+
+@font-face {
+	font-family: "Aileron-Thin";
+	url('../assets/Aileron-Thin.otf');/* IE9 */
+	src: url('../assets/Aileron-Thin.otf');
+}
+
+section {
+	font-family:"Aileron-Thin";
+	url('../assets/Aileron-Thin.otf');/* IE9 */
+	src:url('../assets/Aileron-Thin.otf');
+}
+
+/* ********************************** Nav ********************************************************** */
+#logo {
+	float:left
+}
+
+nav ul li a,nav ul li {
+	font-family:'futura';
+	display:inline-block;
+	padding:20px;
+	padding-bottom:0;
+	font-size:larger;
+	text-decoration:none;
+	font-style:italic;
+	color:#000
+}
+nav ul li {
+	margin-top:-20px;
+}
+#bottomNav {
+	font-family:'futura';
+	padding:20px;
+	border-bottom:2px solid #999;
+	margin-bottom:5px
+}
+
+#bottomNav ul li,#bottomNav ul li a {
+	font-family:'futura';
+	display:inline;
+	color:#ccc;
+	font-size:larger
+}
+
+#bottomNav ul li,#bottomNav ul li a {
+	font-family:'futura';
+	display:inline;
+	color:#999;
+	text-decoration:none;
+	padding-left:5px;
+	padding-right:5px
+}
+
+#bottomNav ul li:hover,#bottomNav ul li a:hover {
+	transition:ease color .3s;
+	color:#237ecc
+}
+
+nav {
+	background:#fff;
+	height:80px
+}
+
+nav ul li:hover,nav ul li a:hover {
+	transition:ease color .3s;
+	color:#237ecc
+}
+
+/* ****************************** Body ***************************** */
+#blue {
+	color:#237ecc
+}
+
+.wrappy {
+	max-width:1080px;
+	margin: 0 auto;
+}
+
+#indexy {
+	width:50%;
+	height:100px;
+	margin:0 auto
+}
+
+.carousel-caption {
+	z-index:1
+}
+
+.carousel-indicators {
+	z-index:2
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+	height:100vh;
+	background-color:#777
+}
+
+.carousel-inner > .item > img {
+	position:absolute;
+	top:0;
+	left:0;
+	min-width:100%;
+	height:500px
+}
+
+#myCarousel {
+	width:100%;
+	min-height:100vh;
+	margin:0 auto
+}
+
+img.bg {
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	position:fixed;
+	z-index:-1;
+	background-attachment:fixed;
+	overflow:hidden
+}
+
+
+
+.fwi {
+	width:100%
+}
+
+h1 {
+	font-family:"futura";
+	url('../assets/futura.ttf');/* IE9 */
+	src: url('..assets/futura.ttf');
+	font-size:50px;
+	text-align: center;
+}
+
+p{
+	font-family: "Aileron-Thin";
+	url('../assets/Aileron-Thin.otf');/* IE9 */
+	src: url('../assets/Aileron-Thin.otf');
+}
+
+#thisisstudioc {
+	background:#ededed;
+	padding:1%;
+}
+
+#thisisstudiocheader {
+	padding-left:30%;
+	padding-right:30%;
+	text-align:center
+}
+
+#thisisstudioccontent {
+	width:40%;
+	padding-left:30%;
+	padding-right:30%;
+	text-align:center
+}
+
+#quote {
+	font-family:"futura";
+	url('../assets/futura.ttf');/* IE9 */
+	src: url('..assets/futura.ttf');
+	background:#2170AE;
+	width:100%;
+	float:left;
+	text-align:center;
+	color:#fff
+}
+
+#whatwedo {
+	background:#fff;
+	float:left;
+}
+
+#whatwedo h1{
+	font-family:"futura";
+	url('../assets/futura.ttf');/* IE9 */
+	src: url('..assets/futura.ttf');
+}
+
+.sectionarray {
+	font-family: "Aileron-Thin";
+	url('../assets/Aileron-Thin.otf');/* IE9 */
+	src: url('../assets/Aileron-Thin.otf');
+	width:32%;
+	padding:5%;
+	margin:0 auto;
+	text-align:center;
+	display:inline-block;
+	vertical-align:top
+}
+
+/* ****************************** ABOUT ***************************** */
+.manager {
+	float:left;
+	width:40%;
+	margin:5%
+}
+
+.manager p {
+	padding:0 5%
+}
+
+.manager img {
+	display:block;
+	max-width:100%;
+	margin:0 auto
+}
+
+.miniwrap {
+	max-width:1080px;
+	margin:0 auto;
+	background:#fff
+}
+
+#left, #right {
+	width:20%;
+	float:left;
+	padding:0 2.5%
+}
+
+#aboutcontent {
+	width:50%;
+	margin:0 auto;
+	margin-top:.7%;
+	float:left;
+	text-align:justify;
+	font-size:larger
+}
+
+#left img,#right img {
+	width:100%;
+	padding:5% 0
+}
+
+#widgets {
+	margin:0 auto;
+	margin-top:10px;
+	width:60%
+}
+
+#widgets img {
+	float: left;
+	width: 31%;
+	padding: 1%;
+}
+
+/* ********************************** CONTACT ********************************************************** */
+#map {
+	z-index:1000;
+	background:#fff
+}
+
+#contactcont {
+	margin: 0 1%;
+	padding: 1%;
+	border-radius: 0 20px 0 20px;
+	background-color: #999999;
+	margin-top: 20px;
+}
+
+#contactBlock {
+	background:#f2f2f2
+}
+
+#contactInfo {
+	background:#c9c9c9;
+	border-bottom-left-radius:10px;
+	border-top-right-radius:10px
+}
+
+.triple {
+	width: 32%;
+	float: left;
+}
+
+label {
+	font-family:"Aileron-Thin";
+/* IE9 */
+	src:url(../assets/Aileron-Thin.otf)
+}
+
+.triple h1 {
+	font-size: 25px;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+#tempimg {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+
+#banner {
+	width: 100%;
+	background: url('images/background.jpg') no-repeat center;
+	height: 200%;
+
+}
+
+#banner h2 {
+	text-align: center;
+	margin: auto;
+	font-size: 40px;
+	padding: 20%;
+	color: white;
+	z-index: 200;
+	text-shadow: 2px 2px #000;
+	font-family: sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+/* ****************************** footer ***************************** */
+footer {
+	background:#e6e6e6;
+	text-align:center;
+	float:left;
+	width:100%
+}
+#mobile-nav {
+	display:none;
+}
+/* ****************************** media query ***************************** */
+ @media (max-width: 980px) {
+  #myCarousel {
+    display: none;
+  }
+
+  nav {
+	height: 160px;
+  }
+
+#indexy {
+margin: 20px;
+width: 100%;
+}
+
+}
+
+ @media (max-width: 680px) {
+		  nav {
+		height: 320px;
+	  }
+	    nav ul li a,nav ul li {
+	padding: 20px 0;
+	    height: 10px;
+	    line-height: 10px;
+	    text-align: center;
+	    width: 100%;
+	 }
+
+	 #iframe {
+		display: none;
+	 }
+
+	 .triple, .triple h1 {
+		width: 90%;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+	#left, #right {
+		display: none;
+	}
+	#aboutcontent {
+		width:90%;
+		padding: 5%;
+	}
+
+	#widgets {
+		width: 80%;
+	}
+
+	.sectionarray {
+		width: 100%;
+	}
+
+	.manager {
+		width:90%;
+		margin:5%
+	}
+ }
+
+/*Smartphone View CODED BY BEN YOU FAGS*/
+@media (max-width: 480px) {
+		nav{
+			display:none; 
+		}
+		#mobile-nav {
+			min-width:100%;
+			height:50px;
+			background-color:white;
+			float:left;
+			display:block;
+			position:fixed;
+			top:0;
+		}
+		#bars img {
+			float:left;
+			width:35px;
+			margin:5px;
+		}
+		#mobile-logo {
+			width:60px;
+			display:block;
+			margin-left:auto;
+			margin-right:auto;
+			
+		}
+		#social-media ul {
+			float:right;
+			margin:5px;
+			margin-top:-50px;
+
+		}
+		#social-media ul li{
+			list-style-type:none;
+			display:inline;
+			margin-top:5px;
+		}
+		#social-media ul li img {
+			width:35px;
+		}
+
+		#thisisstudioc {
+			float:left;
+			margin-top:50px; /*same height as nav bar because since position:fixed; breaks the flow of margin*/
+		}
+}
+@media (max-width: 320px) {
+		#social-media ul li img {
+			width:30px;
+		}
+}
